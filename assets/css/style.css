@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
+    overflow: hidden;
 }
-
 
 
 header{
@@ -12,12 +12,26 @@ header{
 }
 
 body{
+    display: block;
     font-family: 'Times New Roman', Times, serif;
     justify-content: space-between;
     background-color: rgb(201, 148, 148);
-    margin:0px 0px 0px 0px;
+    margin:0px 0px 0px 10px;
 }
-  
+h2{
+    font-size: larger;
+    font-weight: bolder;
+    margin-left:10px;
+}
+aside{
+    width:30%;
+    float:left;
+    
+}
+main{
+    display: flex;
+    flex:0 0 auto;
+}
 /*buttons*/
 header a{
     float: left;
@@ -35,10 +49,25 @@ header a:hover{
 
 /*tiles*/
 .tileContainer{
-    display:flex;
-    justify-content: space-between;
+    margin-left:20px;
+    display: flex;
+    
+    flex-direction: column;
+    background-color: bisque;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.tileContainer img{
-    height: auto;
-    width:50%;
+ul{
+    display: flex;
+    list-style-type: none;
+    align-items: baseline;
+}
+
+.tileContainer ul li img{
+    flex: 0 0 400px;
+    height: 400px;
+    min-width: 200px;
+    width:20%;
+    
 }
