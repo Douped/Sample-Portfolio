@@ -2,12 +2,7 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family: 'Times New Roman', Times, serif;
-    justify-content: space-between;
-    background-color: rgb(201, 148, 148);
-    margin:0px 0px 0px 0px;
-}
+
 
 header{
     display:flex;
@@ -16,6 +11,12 @@ header{
     overflow: hidden;
 }
 
+body{
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-between;
+    background-color: rgb(201, 148, 148);
+    margin:0px 0px 0px 0px;
+}
   
 /*buttons*/
 header a{
@@ -27,7 +28,7 @@ header a{
     font-size: 17px;
     
 }
-.navBar a:hover{
+header a:hover{
     background-color: aquamarine;
     color: black;
 }
@@ -39,5 +40,5 @@ header a{
 }
 .tileContainer img{
     height: auto;
-    max-width: 500;
+    width:50%;
 }
