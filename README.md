@@ -4,9 +4,9 @@ Sample portfolio for challenge-2 in UofT coding bootcamp/
 I've updated the portfolio's layout using a wireframe stored in the assets folder. I have also added tile images that are placeholders for project tiles.
 
 ## links
-link to github:
+## link to github:
 https://github.com/Douped/Sample-Portfolio
-link to deployed site:
+## link to deployed site:
 https://douped.github.io/Sample-Portfolio/
 
 ## screenshot
