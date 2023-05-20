@@ -103,8 +103,8 @@ main .img {
 
 #mainImg {
     flex: 0 0 98%;
-    width: 99%;
-    height: 400px;
+    width: 1200px;
+    height: 500px;
     margin: 10px 0px 10px 0px;
 }
 
